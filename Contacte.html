@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Contacte</title>
+        <link rel="stylesheet" href="Contacte.css"/>
+    </head>
+    <body>
+        <div class="logo">
+        <img src="Imatges/logo.png"/>
+        </div>
+        <h1>Contacte</h1>
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="Qui_som.html">Qui som?</a></li>
+             <li><a href="Cursos.html">Cursos</a></li>
+            <li><a href="Contacte.html">Contacte</a></li>
+        </ul>
+        <br />
+        <br />
+        <h2>Si voleu contactar amb nosaltres, nomes eu de completar el següent formulari:</h2>
+        <form name="dades" method="POST" action="dades.php">
+        <div>
+            <p><label for="nom">Nom:</label>
+                <input id="nom" type="text" name="nom" placeholder="Nom" class="field"/></p>
+            <p><label for="cognom">Cognoms:</label>
+                <input id="cognom" type="text" name="cognom" placeholder="Cognoms" class="field"/></p>
+            <p><label for="dni">DNI:</label>
+                <input id="dni" type="text" name="dni" placeholder="DNI" class="field"/></p>
+            <p><label for="phone">Telèfon:</label>
+            <input type="text" id="phone" class="field"/>
+            </p>
+            <p><label for="correu">Correu electrònic:</label>
+                <input id="correu" type="email"  name="correu" class="field"/></p>
+            <p><label>Assumpte</label>
+                <textarea rows="10" cols="50"></textarea>
+            </div>
+            <div><input type="submit" value="Enviar Dades" class=" hell pentagram"/>
+            <input type="reset" value="Borrar" class=" hell pentagram" />
+            </div>
+        </form>
+        </body>
+    </html>

@@ -1,0 +1,91 @@
+ body {font-family:Arial;
+        background-color:red;
+        box-sizing:border-box;
+        
+}
+
+h2 {font-weight:bold;
+    font-family:Arial, sans-serif;
+    background-color:darkred;
+    text-align:center;
+    padding:13px; 
+    
+}
+
+h1 {text-align:center;
+    background-color:black;
+    color:darkred;
+    font-weight:bold;
+    font-family:Arial;
+    font-size:40px; 
+    
+}
+
+form {background-color:darkred;
+        border-radius:4px;
+        font-size:17px;;
+        padding:50px;
+        margin:0 auto;
+        width:400px; 
+        border-bottom:red;
+                
+}
+
+p {font-weight:bold;
+    font-family:Arial ,sans-serif;
+    
+}
+
+.pentagram {color:white;
+            background-color:black; 
+                
+}
+            
+.pentagram:hover {background-color:darkred;
+                    cursor:pointer;
+                
+}
+
+.hell {border-radius:3px;
+        display:inline-block;
+        padding:15px 15px;
+        text-decoration:none;
+        text-shadow:0 1px 1px rgba(255,255,255,0.3);
+        box-shadow:0 1px 1px rgba(0,0,0,0.3); 
+                
+}
+
+ul {list-style:none;
+    
+}
+
+li a {text-decoration:none;
+        color:darkred;
+        font-weight:bold;
+    
+}
+
+li {float:left;
+    display:inline-block;
+    text-align:center;
+    padding:14px 16px;
+    font-size:18px;
+    background-color:black;
+    
+}
+
+.logo img {width:200px; 
+            float:left;
+    
+}
+
+li:hover{background-color:#5000b5;
+        border:3px solid darkred; 
+        cursor:pointer;
+    
+}
+
+.field {width:150px;
+    
+}
+            

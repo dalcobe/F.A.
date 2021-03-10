@@ -1,0 +1,66 @@
+ul {list-style:none;
+    
+}
+
+h1 {background-color:black;
+    color:darkred;
+    text-align:center;
+    font-size:40px;
+    font-family:Arial;
+    font-weight:bold;
+    
+}
+
+li a {text-decoration:none;
+        color:darkred;
+        font-weight:bold;
+    
+}
+
+li {float:left;
+    display:inline-block;
+    text-align:center;
+    padding:14px 16px;
+    font-size:18px;
+    background-color:black;
+    
+}
+
+.logo img {width:200px; 
+            float:left;
+    
+}
+
+li:hover {background-color:#5000b5;
+            border:3px solid darkred; 
+            cursor:pointer;
+    
+}
+
+p {font-size:20px;
+    
+}
+
+
+body {background-color:red;
+    
+}
+
+.inici {font-weight:bold;
+    
+}
+
+.intro {background-color:darkred; 
+    
+}
+
+.pc img {width:350px;
+            display:block;
+            margin:auto; 
+    
+}
+
+.link:hover {color:black;
+                background-color:rebeccapurple;
+    
+}
